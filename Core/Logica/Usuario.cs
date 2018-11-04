@@ -12,12 +12,12 @@ namespace Logica
 
         // Properties
         public int IdUsuario { get { return idUsuario; } }
-        public String Email { get; set; }
-        public String Password { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
         public Boolean Activo { get; set; }
 
         // Constructores
-        public Usuario(int id, String mail, String pass, Boolean activo)
+        public Usuario(int id, string mail, string pass, Boolean activo)
         {
             idUsuario = id;
             Email = mail;
