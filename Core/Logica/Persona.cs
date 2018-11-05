@@ -7,7 +7,7 @@ namespace Logica
     public class Persona : Cliente
     {
         // Atributes
-        public int cedula;
+        private int cedula;
 
         // Properties
         public int Cedula { get { return cedula; } }

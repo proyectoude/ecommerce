@@ -7,7 +7,7 @@ namespace Logica
     public class Empresa : Cliente
     {
         // Atributes
-        public int rut;
+        private int rut;
 
         // Properties
         public int Rut { get { return rut; } }
