@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Presentacion.ValueObjects;
+
+namespace Persistencia.DAO
+{
+    public class ProductoDAO
+    {
+        public void InsertarProducto(ProductoVO prodvo)
+        {
+            //aca va el insert y la conexion a la base de datos.    
+        }
+
+        public void BorrarProducto(ProductoVO prodvo)
+        {
+            //aca va el delete y la conexion a la base de datos.    
+        }
+
+        public void ModificarProducto(ProductoVO prodvo)
+        {
+            //aca va el update y la conexion a la base de datos.    
+        }
+
+        public void ModificarStockProducto(ProductoVO prodvo)
+        {
+            //aca va el update y la conexion a la base de datos.    
+        }
+
+        public ProductoVO DarProductoPorID(ProductoVO prodvo)
+        {
+            int idproducto = prodvo.IdProducto;
+                return prodvo;
+                //aca va el update y la conexion a la base de datos.    
+        }
+
+        public List<ProductoVO> ListarProductoPorCategoria(ProductoVO prodvo)
+        {
+            return null;
+            //aca va el update y la conexion a la base de datos.    
+        }
+
+        public List<ProductoVO> ListarProductoPorDescripcion(ProductoVO prodvo)
+        {
+            return null;
+            //aca va el update y la conexion a la base de datos.    
+        }
+
+        public List<ProductoVO> ListarProductos()
+        {
+            return null;
+            //aca va el update y la conexion a la base de datos.    
+        }
+
+    }
+
+}

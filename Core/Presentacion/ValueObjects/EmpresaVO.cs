@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class EmpresaVO : ClienteVO
+    public class EmpresaVO : ClienteVO
     {
         // Atributes
         public int rut;

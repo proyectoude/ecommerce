@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class PersonaVO : ClienteVO
+    public class PersonaVO : ClienteVO
     {
         // Atributos
         private int cedula;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class UsuarioVO
+    public class UsuarioVO
     {
         // Atributos
         private int idUsuario;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class CategoriaVO
+    public class CategoriaVO
     {
         // Atributos
         private int idCategoria;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class ClienteVO : UsuarioVO
+    public class ClienteVO : UsuarioVO
     {
         // Atributos
         private String direccion;

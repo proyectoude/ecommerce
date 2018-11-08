@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class ProductoVO
+    public class ProductoVO
     {
         // Atributos
         private int idProducto;

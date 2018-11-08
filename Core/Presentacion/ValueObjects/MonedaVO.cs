@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Presentacion.ValueObjects
 {
-    class MonedaVO
+    public class MonedaVO
     {
         // Atributos
         private int idMoneda;
