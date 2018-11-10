@@ -10,7 +10,7 @@ namespace LogicaPersistencia.DAO
             //aca va el insert y la conexion a la base de datos.    
         }
 
-        public void BorrarCategoria(CategoriaVO catvo)
+        public void EliminarCategoria(int catid)
         {
             //aca va el delete y la conexion a la base de datos.    
         }
@@ -25,7 +25,7 @@ namespace LogicaPersistencia.DAO
             return null;
         }
 
-        public CategoriaVO DarCategoria (CategoriaVO catvo)
+        public CategoriaVO DarCategoria (int catid)
         {
             return null;
         }

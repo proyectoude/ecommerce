@@ -10,7 +10,7 @@ namespace LogicaPersistencia.DAO
 
         }
 
-        public void BorrarCliente(ClienteVO clivo)
+        public void EliminarCliente(int cliid)
         {
 
         }
@@ -20,7 +20,7 @@ namespace LogicaPersistencia.DAO
 
         }
 
-        public ClienteVO DarCliente(ClienteVO clivo)
+        public ClienteVO DarCliente(int cliid)
         {
             return null;
         }
